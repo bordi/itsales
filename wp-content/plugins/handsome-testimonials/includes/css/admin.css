@@ -1,0 +1,160 @@
+/**
+ * Handsome Testimonials Admin CSS
+ *
+ * @package     handsometestimonials
+ * @copyright   Copyright (c) 2014, Kevin Marshall
+ * @license     http://opensource.org/licenses/gpl-2.0.php GNU Public License
+ * @since       1.0
+*/
+
+/* Testimonial Shortcode Generator Popup */
+
+#TB_ajaxContent {
+    width: 95% !important;
+    height: 90% !important;
+}
+
+.hndtst-dialog_wrapper {
+    /*height: 82%;*/
+}
+
+.hndtst-dialog_Col_1 {
+	display: inline-block;
+	vertical-align: top;
+	width: 277px;
+    overflow: auto;
+    height: 100%;
+}
+.hndtst-dialog_Col_2 {	
+    position: fixed;
+    display: inline-block;
+	vertical-align: top;
+    float: none;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 5px;
+    height: 100%;
+    width: 460px;
+    overflow: auto;
+}
+
+.hndtst-dialog_ad {
+    margin-top: 10px;
+}
+
+#TB_window {
+	min-width: 783px;
+}
+
+.dashicons.custom-dashicon {
+    font-size: 18px;
+    margin-top: 4px;
+}
+
+/* Testimonial Survey/Rating Styling */
+#hntst_survey_rating {
+    text-align: center;
+}
+
+#hntst_survey_rating span {
+    width: 20px;
+    height: 22px;
+    cursor: pointer;
+    display: inline-block;
+    background-image: url(../../assets/images/greystar.png);
+    padding: 0px 2px;
+    background-size: 22px;
+    background-repeat: no-repeat;
+}
+
+
+/* Testimonial Preview in Testimonial Generator */
+.tst_preview_txt {
+	margin-top: -20px !important;
+}
+#delete_instance_options{
+    float: right;
+    margin-right: 5px;
+}
+p #delete_instance_options{
+    float:none;
+    height: 30px;
+    width: 70px;
+}
+#tst_widget_instance_block{
+    height: 50px;
+    margin-top: 30px;    
+}
+#tst_widget_instance_save {
+    width: 230px;
+    float: left;
+}
+#tst_widget_instance_retrieve {
+    width: 230px;
+    float: right;
+}
+
+.hndtst_pro_discount_offer {
+    overflow: auto;
+    position: relative;
+}
+
+.hndtst_pro_discount_offer .close-hndtst-offer {
+    position: absolute;
+    top: 42%;
+    right: 1%;
+}
+
+.hndtst_pro_discount_offer h2 {
+    font-size: 24px;
+}
+
+.hndtst_pro_discount_offer p {
+    font-size: 16px;
+}
+
+.hndtst_discount_offer_logo {
+    background-image: url(../../assets/images/handsomeguy.png);
+    background-size: 100px 120px;
+    display: block;
+    float: left;
+    height: 120px;
+    width: 100px;
+    margin: 10px;
+}
+
+#hndtst-dialog{
+    display: none;
+}
+#htst-design-page #hndtst-dialog{
+    display: block;
+}
+#hndtst-dialog h1,
+.hndtst-dialog_wrapper h1
+{
+    background: #006799;
+    color:white;
+    padding:15px;
+    margin:2px 0px;
+    border-radius: 4px;
+}
+#hndtst_tst_generator_style_section {
+    margin: 21px 0px;
+}
+.hndtst-dialog_Col_2-wrap{
+    position: fixed;
+    display: inline-block;
+}
+#htst-design-page .hndtst-dialog_Col_2-wrap{    
+    width: calc(100% - 477px);
+}
+#htst-design-page .hndtst-dialog_Col_2 {
+    position: static;
+    display: block;
+}
+@media only screen and (max-width: 960px){
+    #htst-design-page .hndtst-dialog_Col_2-wrap{    
+        width: calc(100% - 320px);
+    }   
+}
