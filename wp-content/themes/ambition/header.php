@@ -81,7 +81,7 @@ function catapult_close(clicked_id) {
                     var cal_to_action = document.getElementById('catapult-bar');
                     cal_to_action.removeAttribute('style');
                     var cbh = getComputedStyle(document.getElementById('catapult-bar'));
-                    //plug.setAttribute('style', 'display: block;height: ' + cbh.height + ';background-color:red;');
+                    plug.setAttribute('style', 'display: block;height: ' + cbh.height + ';background-color:red;');
                 }, 60000);
             }
         }
